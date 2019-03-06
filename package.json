@@ -1,0 +1,22 @@
+{
+  "name": "ms-ya-tracker",
+  "version": "2.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node src",
+    "docker:start": "docker-compose up --build -d",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.22.1",
+    "mongodb": "2.2.34",
+    "path": "^0.12.7",
+    "precommit": "^1.2.2"
+  }
+}
